@@ -1,0 +1,44 @@
+/* src/Palette.css */
+
+.Palette {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .save-button,
+  .delete-button {
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: transform 0.2s ease;
+  }
+  
+  .save-button:hover,
+  .delete-button:hover {
+    transform: scale(1.5);
+  }
+  
+  .save-button {
+    color: #ffdd57;
+  }
+  
+  .save-button:hover {
+    color: #ffc700;
+  }
+  
+  .delete-button {
+    color: #ff4d4d;
+  }
+  
+  .delete-button:hover {
+    color: #ff1a1a;
+  }
+  
